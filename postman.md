@@ -26,3 +26,15 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | sh
 ```
 curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 ```
+
+### NEWMAN
+>Inslatace
+>>Nutno mít nainstalovaný Node.js s NPM.
+```
+npm install -g newman
+```
+
+>Spuštění
+```
+newman run cesta_ke_kolekci -e cesta_k_prostredi
+```
