@@ -33,8 +33,18 @@ curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 ```
 npm install -g newman
 ```
-
 >Spuštění
 ```
 newman run cesta_ke_kolekci -e cesta_k_prostredi
 ```
+
+### SWAGGER
+>Instalace
+>>Nutno mít nainstalovaný Node.js s NPM.
+```
+npm install -g http-server
+git clone https://github.com/swagger-api/swagger-editor.git
+http-server -p 8080 swagger-editor
+```
+
+
