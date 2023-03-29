@@ -5,7 +5,8 @@
 ```
 git clone https://github.com/matej-kaska/twitter-lite.git
 ```
->Otevřeme terminál ve složce Twitter-Lite.
+>Zapneme Docker.
+><p>Otevřeme terminál ve složce Twitter-Lite.
 ><p>Musíme spustit docker (na Windowsu spustit Docker Desktop app před příkazem).
 ><p>("C:\Users\kubik\Desktop\twitter-lite") - bude trvat x minut
 ```
