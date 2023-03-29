@@ -14,7 +14,7 @@ docker compose up
 ```
 
 
-### REGISTER
+## REGISTER
 https://identity.getpostman.com/signup
 
 
