@@ -5,7 +5,9 @@
 ```
 git clone https://github.com/matej-kaska/twitter-lite.git
 ```
->Musíme spustit docker -> ve složce s Twitterem. ("C:\Users\kubik\Desktop\twitter-lite") - bude trvat x minut
+>Otevřeme terminál ve složce Twitter-Lite.
+><p>Musíme spustit docker (na Windowsu spustit Docker Desktop app před příkazem).
+><p>("C:\Users\kubik\Desktop\twitter-lite") - bude trvat x minut
 ```
 docker compose up
 ```
@@ -38,7 +40,7 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | sh
 curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 ```
 
-### NEWMAN
+### NEWMAN*
 >Inslatace
 >>Nutno mít nainstalovaný Node.js s NPM.
 ```
@@ -49,7 +51,7 @@ npm install -g newman
 newman run cesta_ke_kolekci -e cesta_k_prostredi
 ```
 
-### SWAGGER
+### SWAGGER*
 >Instalace
 >>Nutno mít nainstalovaný Node.js s NPM.
 ```
