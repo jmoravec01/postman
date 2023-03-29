@@ -1,5 +1,16 @@
 # P O S T M A N
 
+## PRVNÍ VĚC
+>Musíme stáhnout Matějův Twitter-Lite. (ideálně plocha, ať si pamatujete umístění)
+```
+git clone https://github.com/matej-kaska/twitter-lite.git
+```
+>Musíme spustit docker -> ve složce s Twitterem. ("C:\Users\kubik\Desktop\twitter-lite") - bude trvat x minut
+```
+docker compose up
+```
+
+
 ### REGISTER
 https://identity.getpostman.com/signup
 
