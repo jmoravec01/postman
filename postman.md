@@ -1,4 +1,5 @@
 # P O S T M A N
+<br/><br/>
 
 ## PRVNÍ VĚC
 >Musíme stáhnout Matějův Twitter-Lite. (ideálně plocha, ať si pamatujete umístění)
@@ -12,12 +13,12 @@ git clone https://github.com/matej-kaska/twitter-lite.git
 ```
 docker compose up
 ```
-
-
+  
+<br/><br/>
 ## REGISTER
 https://identity.getpostman.com/signup
 
-
+<br/><br/>
 ### DOWNLOAD*
 https://www.postman.com/downloads/
 
@@ -41,6 +42,7 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | sh
 curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
 ```
 
+ <br/><br/>
 ### NEWMAN*
 >Inslatace
 >>Nutno mít nainstalovaný Node.js s NPM.
@@ -52,6 +54,7 @@ npm install -g newman
 newman run cesta_ke_kolekci -e cesta_k_prostredi
 ```
 
+<br/><br/>
 ### SWAGGER*
 >Instalace
 >>Nutno mít nainstalovaný Node.js s NPM.
